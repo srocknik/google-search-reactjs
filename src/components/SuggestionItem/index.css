@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.list-items-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.suggestion {
+  color: #475569;
+  font-family: roboto;
+  font-size: 14px;
+}
+.image {
+  height: 20px;
+}

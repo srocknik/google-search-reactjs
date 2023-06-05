@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.bg-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-container {
+}
+
+@media (max-width: 576px) {
+  .card-container {
+    width: 550;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 2px 2px #bfbfbf;
+    border-radius: 10px;
+  }
+  .search-bar {
+    min-width: 400;
+    border: none;
+    outline: none;
+  }
+  .google-img {
+    height: 100px;
+  }
+}
+@media (min-width: 577px) {
+  .card-container {
+    width: 700px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 1px 1px 2px 2px #bfbfbf;
+    border-radius: 10px;
+  }
+  .search-bar {
+    min-width: 600;
+    border: none;
+    outline: none;
+  }
+  .google-img {
+    height: 150px;
+  }
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.search-img {
+  height: 20px;
+}
+.list-container {
+  padding: 10px;
+}
